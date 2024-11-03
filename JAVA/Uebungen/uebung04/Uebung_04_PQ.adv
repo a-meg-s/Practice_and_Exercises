@@ -1,0 +1,1462 @@
+{
+  "snapshots": [
+    {
+      "snapshotId": 1,
+      "snapshotDescription": "\ninsert(4,D)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "(4,D)"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {
+            "max-right-tree-height": "2",
+            "max-left-tree-height": "2"
+          },
+          "position": "DEFAULT"
+        },
+        {
+          "moduleName": "array",
+          "elements": [
+            {
+              "id": 0,
+              "content": "null"
+            },
+            {
+              "id": 1,
+              "content": "(4,D)"
+            },
+            {
+              "id": 2,
+              "content": "null"
+            },
+            {
+              "id": 3,
+              "content": "null"
+            },
+            {
+              "id": 4,
+              "content": "null"
+            },
+            {
+              "id": 5,
+              "content": "null"
+            },
+            {
+              "id": 6,
+              "content": "null"
+            },
+            {
+              "id": 7,
+              "content": "null"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {},
+          "position": "BOTTOM"
+        }
+      ]
+    },
+    {
+      "snapshotId": 2,
+      "snapshotDescription": "\ninsert(5,E)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "(4,D)"
+            },
+            {
+              "id": 2,
+              "content": "(5,E)"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 2,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {
+            "max-right-tree-height": "2",
+            "max-left-tree-height": "2"
+          },
+          "position": "DEFAULT"
+        },
+        {
+          "moduleName": "array",
+          "elements": [
+            {
+              "id": 0,
+              "content": "null"
+            },
+            {
+              "id": 1,
+              "content": "(4,D)"
+            },
+            {
+              "id": 2,
+              "content": "(5,E)"
+            },
+            {
+              "id": 3,
+              "content": "null"
+            },
+            {
+              "id": 4,
+              "content": "null"
+            },
+            {
+              "id": 5,
+              "content": "null"
+            },
+            {
+              "id": 6,
+              "content": "null"
+            },
+            {
+              "id": 7,
+              "content": "null"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {},
+          "position": "BOTTOM"
+        }
+      ]
+    },
+    {
+      "snapshotId": 3,
+      "snapshotDescription": "\ninsert(3,C)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "(4,D)"
+            },
+            {
+              "id": 2,
+              "content": "(5,E)"
+            },
+            {
+              "id": 3,
+              "content": "(3,C)"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 2,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {
+            "max-right-tree-height": "2",
+            "max-left-tree-height": "2"
+          },
+          "position": "DEFAULT"
+        },
+        {
+          "moduleName": "array",
+          "elements": [
+            {
+              "id": 0,
+              "content": "null"
+            },
+            {
+              "id": 1,
+              "content": "(4,D)"
+            },
+            {
+              "id": 2,
+              "content": "(5,E)"
+            },
+            {
+              "id": 3,
+              "content": "(3,C)"
+            },
+            {
+              "id": 4,
+              "content": "null"
+            },
+            {
+              "id": 5,
+              "content": "null"
+            },
+            {
+              "id": 6,
+              "content": "null"
+            },
+            {
+              "id": 7,
+              "content": "null"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {},
+          "position": "BOTTOM"
+        }
+      ]
+    },
+    {
+      "snapshotId": 4,
+      "snapshotDescription": "\ninsert(3,C)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "(3,C)"
+            },
+            {
+              "id": 2,
+              "content": "(5,E)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 2,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {
+            "max-right-tree-height": "2",
+            "max-left-tree-height": "2"
+          },
+          "position": "DEFAULT"
+        },
+        {
+          "moduleName": "array",
+          "elements": [
+            {
+              "id": 0,
+              "content": "null"
+            },
+            {
+              "id": 1,
+              "content": "(3,C)"
+            },
+            {
+              "id": 2,
+              "content": "(5,E)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            },
+            {
+              "id": 4,
+              "content": "null"
+            },
+            {
+              "id": 5,
+              "content": "null"
+            },
+            {
+              "id": 6,
+              "content": "null"
+            },
+            {
+              "id": 7,
+              "content": "null"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {},
+          "position": "BOTTOM"
+        }
+      ]
+    },
+    {
+      "snapshotId": 5,
+      "snapshotDescription": "\ninsert(2,B)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "(3,C)"
+            },
+            {
+              "id": 2,
+              "content": "(5,E)"
+            },
+            {
+              "id": 4,
+              "content": "(2,B)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 2,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 2,
+              "targetElementId": 4,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {
+            "max-right-tree-height": "2",
+            "max-left-tree-height": "2"
+          },
+          "position": "DEFAULT"
+        },
+        {
+          "moduleName": "array",
+          "elements": [
+            {
+              "id": 0,
+              "content": "null"
+            },
+            {
+              "id": 1,
+              "content": "(3,C)"
+            },
+            {
+              "id": 2,
+              "content": "(5,E)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            },
+            {
+              "id": 4,
+              "content": "(2,B)"
+            },
+            {
+              "id": 5,
+              "content": "null"
+            },
+            {
+              "id": 6,
+              "content": "null"
+            },
+            {
+              "id": 7,
+              "content": "null"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {},
+          "position": "BOTTOM"
+        }
+      ]
+    },
+    {
+      "snapshotId": 6,
+      "snapshotDescription": "\ninsert(2,B)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "(3,C)"
+            },
+            {
+              "id": 2,
+              "content": "(2,B)"
+            },
+            {
+              "id": 4,
+              "content": "(5,E)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 2,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 2,
+              "targetElementId": 4,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {
+            "max-right-tree-height": "2",
+            "max-left-tree-height": "2"
+          },
+          "position": "DEFAULT"
+        },
+        {
+          "moduleName": "array",
+          "elements": [
+            {
+              "id": 0,
+              "content": "null"
+            },
+            {
+              "id": 1,
+              "content": "(3,C)"
+            },
+            {
+              "id": 2,
+              "content": "(2,B)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            },
+            {
+              "id": 4,
+              "content": "(5,E)"
+            },
+            {
+              "id": 5,
+              "content": "null"
+            },
+            {
+              "id": 6,
+              "content": "null"
+            },
+            {
+              "id": 7,
+              "content": "null"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {},
+          "position": "BOTTOM"
+        }
+      ]
+    },
+    {
+      "snapshotId": 7,
+      "snapshotDescription": "\ninsert(2,B)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "(2,B)"
+            },
+            {
+              "id": 2,
+              "content": "(3,C)"
+            },
+            {
+              "id": 4,
+              "content": "(5,E)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 2,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 2,
+              "targetElementId": 4,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {
+            "max-right-tree-height": "2",
+            "max-left-tree-height": "2"
+          },
+          "position": "DEFAULT"
+        },
+        {
+          "moduleName": "array",
+          "elements": [
+            {
+              "id": 0,
+              "content": "null"
+            },
+            {
+              "id": 1,
+              "content": "(2,B)"
+            },
+            {
+              "id": 2,
+              "content": "(3,C)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            },
+            {
+              "id": 4,
+              "content": "(5,E)"
+            },
+            {
+              "id": 5,
+              "content": "null"
+            },
+            {
+              "id": 6,
+              "content": "null"
+            },
+            {
+              "id": 7,
+              "content": "null"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {},
+          "position": "BOTTOM"
+        }
+      ]
+    },
+    {
+      "snapshotId": 8,
+      "snapshotDescription": "\ninsert(1,A)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "(2,B)"
+            },
+            {
+              "id": 2,
+              "content": "(3,C)"
+            },
+            {
+              "id": 4,
+              "content": "(5,E)"
+            },
+            {
+              "id": 5,
+              "content": "(1,A)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 2,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 2,
+              "targetElementId": 4,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 2,
+              "targetElementId": 5,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {
+            "max-right-tree-height": "2",
+            "max-left-tree-height": "2"
+          },
+          "position": "DEFAULT"
+        },
+        {
+          "moduleName": "array",
+          "elements": [
+            {
+              "id": 0,
+              "content": "null"
+            },
+            {
+              "id": 1,
+              "content": "(2,B)"
+            },
+            {
+              "id": 2,
+              "content": "(3,C)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            },
+            {
+              "id": 4,
+              "content": "(5,E)"
+            },
+            {
+              "id": 5,
+              "content": "(1,A)"
+            },
+            {
+              "id": 6,
+              "content": "null"
+            },
+            {
+              "id": 7,
+              "content": "null"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {},
+          "position": "BOTTOM"
+        }
+      ]
+    },
+    {
+      "snapshotId": 9,
+      "snapshotDescription": "\ninsert(1,A)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "(2,B)"
+            },
+            {
+              "id": 2,
+              "content": "(1,A)"
+            },
+            {
+              "id": 4,
+              "content": "(5,E)"
+            },
+            {
+              "id": 5,
+              "content": "(3,C)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 2,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 2,
+              "targetElementId": 4,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 2,
+              "targetElementId": 5,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {
+            "max-right-tree-height": "2",
+            "max-left-tree-height": "2"
+          },
+          "position": "DEFAULT"
+        },
+        {
+          "moduleName": "array",
+          "elements": [
+            {
+              "id": 0,
+              "content": "null"
+            },
+            {
+              "id": 1,
+              "content": "(2,B)"
+            },
+            {
+              "id": 2,
+              "content": "(1,A)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            },
+            {
+              "id": 4,
+              "content": "(5,E)"
+            },
+            {
+              "id": 5,
+              "content": "(3,C)"
+            },
+            {
+              "id": 6,
+              "content": "null"
+            },
+            {
+              "id": 7,
+              "content": "null"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {},
+          "position": "BOTTOM"
+        }
+      ]
+    },
+    {
+      "snapshotId": 10,
+      "snapshotDescription": "\ninsert(1,A)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "(1,A)"
+            },
+            {
+              "id": 2,
+              "content": "(2,B)"
+            },
+            {
+              "id": 4,
+              "content": "(5,E)"
+            },
+            {
+              "id": 5,
+              "content": "(3,C)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 2,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 2,
+              "targetElementId": 4,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 2,
+              "targetElementId": 5,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {
+            "max-right-tree-height": "2",
+            "max-left-tree-height": "2"
+          },
+          "position": "DEFAULT"
+        },
+        {
+          "moduleName": "array",
+          "elements": [
+            {
+              "id": 0,
+              "content": "null"
+            },
+            {
+              "id": 1,
+              "content": "(1,A)"
+            },
+            {
+              "id": 2,
+              "content": "(2,B)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            },
+            {
+              "id": 4,
+              "content": "(5,E)"
+            },
+            {
+              "id": 5,
+              "content": "(3,C)"
+            },
+            {
+              "id": 6,
+              "content": "null"
+            },
+            {
+              "id": 7,
+              "content": "null"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {},
+          "position": "BOTTOM"
+        }
+      ]
+    },
+    {
+      "snapshotId": 11,
+      "snapshotDescription": "\nremoveMin(): (1,A)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "(3,C)"
+            },
+            {
+              "id": 2,
+              "content": "(2,B)"
+            },
+            {
+              "id": 4,
+              "content": "(5,E)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 2,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 2,
+              "targetElementId": 4,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {
+            "max-right-tree-height": "2",
+            "max-left-tree-height": "2"
+          },
+          "position": "DEFAULT"
+        },
+        {
+          "moduleName": "array",
+          "elements": [
+            {
+              "id": 0,
+              "content": "null"
+            },
+            {
+              "id": 1,
+              "content": "(3,C)"
+            },
+            {
+              "id": 2,
+              "content": "(2,B)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            },
+            {
+              "id": 4,
+              "content": "(5,E)"
+            },
+            {
+              "id": 5,
+              "content": "null"
+            },
+            {
+              "id": 6,
+              "content": "null"
+            },
+            {
+              "id": 7,
+              "content": "null"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {},
+          "position": "BOTTOM"
+        }
+      ]
+    },
+    {
+      "snapshotId": 12,
+      "snapshotDescription": "\nremoveMin(): (1,A)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "(2,B)"
+            },
+            {
+              "id": 2,
+              "content": "(3,C)"
+            },
+            {
+              "id": 4,
+              "content": "(5,E)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 2,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 2,
+              "targetElementId": 4,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {
+            "max-right-tree-height": "2",
+            "max-left-tree-height": "2"
+          },
+          "position": "DEFAULT"
+        },
+        {
+          "moduleName": "array",
+          "elements": [
+            {
+              "id": 0,
+              "content": "null"
+            },
+            {
+              "id": 1,
+              "content": "(2,B)"
+            },
+            {
+              "id": 2,
+              "content": "(3,C)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            },
+            {
+              "id": 4,
+              "content": "(5,E)"
+            },
+            {
+              "id": 5,
+              "content": "null"
+            },
+            {
+              "id": 6,
+              "content": "null"
+            },
+            {
+              "id": 7,
+              "content": "null"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {},
+          "position": "BOTTOM"
+        }
+      ]
+    },
+    {
+      "snapshotId": 13,
+      "snapshotDescription": "\nremoveMin(): (2,B)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "(5,E)"
+            },
+            {
+              "id": 2,
+              "content": "(3,C)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 2,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {
+            "max-right-tree-height": "2",
+            "max-left-tree-height": "2"
+          },
+          "position": "DEFAULT"
+        },
+        {
+          "moduleName": "array",
+          "elements": [
+            {
+              "id": 0,
+              "content": "null"
+            },
+            {
+              "id": 1,
+              "content": "(5,E)"
+            },
+            {
+              "id": 2,
+              "content": "(3,C)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            },
+            {
+              "id": 4,
+              "content": "null"
+            },
+            {
+              "id": 5,
+              "content": "null"
+            },
+            {
+              "id": 6,
+              "content": "null"
+            },
+            {
+              "id": 7,
+              "content": "null"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {},
+          "position": "BOTTOM"
+        }
+      ]
+    },
+    {
+      "snapshotId": 14,
+      "snapshotDescription": "\nremoveMin(): (2,B)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "(3,C)"
+            },
+            {
+              "id": 2,
+              "content": "(5,E)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 2,
+              "label": "",
+              "directed": false
+            },
+            {
+              "sourceElementId": 1,
+              "targetElementId": 3,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {
+            "max-right-tree-height": "2",
+            "max-left-tree-height": "2"
+          },
+          "position": "DEFAULT"
+        },
+        {
+          "moduleName": "array",
+          "elements": [
+            {
+              "id": 0,
+              "content": "null"
+            },
+            {
+              "id": 1,
+              "content": "(3,C)"
+            },
+            {
+              "id": 2,
+              "content": "(5,E)"
+            },
+            {
+              "id": 3,
+              "content": "(4,D)"
+            },
+            {
+              "id": 4,
+              "content": "null"
+            },
+            {
+              "id": 5,
+              "content": "null"
+            },
+            {
+              "id": 6,
+              "content": "null"
+            },
+            {
+              "id": 7,
+              "content": "null"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {},
+          "position": "BOTTOM"
+        }
+      ]
+    },
+    {
+      "snapshotId": 15,
+      "snapshotDescription": "\nremoveMin(): (3,C)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "(4,D)"
+            },
+            {
+              "id": 2,
+              "content": "(5,E)"
+            }
+          ],
+          "relations": [
+            {
+              "sourceElementId": 1,
+              "targetElementId": 2,
+              "label": "",
+              "directed": false
+            }
+          ],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {
+            "max-right-tree-height": "2",
+            "max-left-tree-height": "2"
+          },
+          "position": "DEFAULT"
+        },
+        {
+          "moduleName": "array",
+          "elements": [
+            {
+              "id": 0,
+              "content": "null"
+            },
+            {
+              "id": 1,
+              "content": "(4,D)"
+            },
+            {
+              "id": 2,
+              "content": "(5,E)"
+            },
+            {
+              "id": 3,
+              "content": "null"
+            },
+            {
+              "id": 4,
+              "content": "null"
+            },
+            {
+              "id": 5,
+              "content": "null"
+            },
+            {
+              "id": 6,
+              "content": "null"
+            },
+            {
+              "id": 7,
+              "content": "null"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {},
+          "position": "BOTTOM"
+        }
+      ]
+    },
+    {
+      "snapshotId": 16,
+      "snapshotDescription": "\nremoveMin(): (4,D)",
+      "moduleGroups": [
+        {
+          "moduleName": "tree-binary",
+          "elements": [
+            {
+              "id": 1,
+              "content": "(5,E)"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {
+            "max-right-tree-height": "2",
+            "max-left-tree-height": "2"
+          },
+          "position": "DEFAULT"
+        },
+        {
+          "moduleName": "array",
+          "elements": [
+            {
+              "id": 0,
+              "content": "null"
+            },
+            {
+              "id": 1,
+              "content": "(5,E)"
+            },
+            {
+              "id": 2,
+              "content": "null"
+            },
+            {
+              "id": 3,
+              "content": "null"
+            },
+            {
+              "id": 4,
+              "content": "null"
+            },
+            {
+              "id": 5,
+              "content": "null"
+            },
+            {
+              "id": 6,
+              "content": "null"
+            },
+            {
+              "id": 7,
+              "content": "null"
+            }
+          ],
+          "relations": [],
+          "flags": [
+            "show-array-indices"
+          ],
+          "metaData": {},
+          "position": "BOTTOM"
+        }
+      ]
+    }
+  ],
+  "sessionId": 1633878351076,
+  "sessionName": "Uebung 4:PQ"
+}
