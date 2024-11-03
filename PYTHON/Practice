@@ -1,0 +1,47 @@
+# define a function that takes a character as input
+# and returns the encrypted character
+def encrypt(character):
+ 
+    # initialize the secret string
+    secret = ""
+ 
+    # if the character is 'z',
+    # concat 'a' to secret instead of that
+    if character == "z":
+        secret += "a"
+ 
+    # if the character is not 'z',
+    # convert the character in ASCII format, add 1 to it
+    # again convert it to character and contact to secret
+    else:
+        secret += chr(ord(character) + 1)
+ 
+    # return the secret string
+    return secret
+ 
+ 
+# define the main function
+def main_runner(string):
+ 
+    # initialize the encrypted string
+    result = ""
+ 
+    # loop through each character in the string
+    for character in string:
+ 
+        # if the character is the alphabet,
+        # call the encrypt function and concat the result to result
+        if character.isalpha():
+            result += encrypt(character)
+ 
+        # if the character is not an alphabet,
+        # concat the character as it is to result
+        else:
+            result += character
+ 
+    # return the result
+    return result
+ 
+ 
+encrypted = main_runner("Do soulmates and twin flames exist")
+print(encrypted)
