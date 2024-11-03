@@ -4,3 +4,20 @@
 # Finally, print the modified list.
 #Expected Output: A list of fruits, showing additions and replacements.
 
+def fruitListManager ():
+    fruitList = ["banana", "apple", "orange", "kiwi", "melon"]
+    print("The initial list of fruit: " + str(fruitList))
+
+    #add fruits with append
+    fruitList.append("pineapple")
+    fruitList.append("plum")
+
+    print("After adding two new fruit, the list is now: " + str(fruitList))
+
+    #remove a fruit and replace it
+    fruitList.remove("melon")
+    fruitList.insert(4, "strawberry")
+
+    print("After removing melon and replacing it, the list is now: " + str(fruitList))
+
+fruitListManager()
