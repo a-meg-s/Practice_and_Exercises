@@ -1,0 +1,62 @@
+ComPdCommandLinePars:INFO   :Logging to SysOut (console) enabled by command line argument
+ComPdCommandLinePars:INFO   :Logging to logfile enabled by command line argument
+ComPdCommandLinePars:INFO   :LogLevel set to FINER by command line argument
+CliPdUI             :INFO   :Timestamp: 11:45:53.157 - 24.11.2024
+CliPdUI             :INFO   :Starting ExRep-Client v3.2.0
+CliDmClientConfig   :INFO   :Loading client config from XML
+CliDmClientConfig   :FINER  :Loaded network data
+CliDmClientConfig   :FINER  :Loaded user data
+CliDmClientConfig   :FINER  :Loaded ranking data
+CliDmClientConfig   :FINER  :Loaded log module "client" with level "OFF"
+CliDmClientConfig   :FINER  :Loaded logging data
+CliDmClientConfig   :INFO   :XML client config file successfully saved
+CliDmClientConfig   :INFO   :XML client config file successfully saved
+CliNtServerConnectio:FINER  :Found an ExRep-Server on port 40009
+CliDmClientConfig   :INFO   :XML client config file successfully saved
+CliNtServerConnectio:FINER  :Found an ExRep-Server on port 40001
+CliPdUI             :FINE   :Sucessfully connected to server
+CliNtServerConnectio:FINER  :Found an ExRep-Server on port 40001
+ComDmFileTransfer   :INFO   :Setting file "DynamicUploadTestat.class" success
+ComDmFileTransfer   :INFO   :Write file "C:\Users\Andrea\OneDrive - Hochschule Luzern\Desktop\UNI\3\ADS\Practice_and_Exercises\JAVA\Uebungen\uebung10\exrep\client\Uebung10Testat1\checkin1\DynamicUploadTestat.class" success
+CliNtServerConnectio:FINER  :Found an ExRep-Server on port 40001
+CliPdUI             :INFO   :Now starting dynamic class...
+ComPdDynamicClassLoa:INFO   :Dynamic class "DynamicUploadTestat" loaded
+ComPdDynamicClassLoa:INFO   :Executing method "execute" of dynamic class...
+DynamicUploadTestat :INFO   :execute() from DynamicUpload class running
+DynamicUploadTestat :FINER  :FileList: [./as/aufgabe02/Graph.java]
+DynamicUploadTestat :FINE   :Creating ZIP-Archive: C:\Users\Andrea\OneDrive - Hochschule Luzern\Desktop\UNI\3\ADS\Practice_and_Exercises\JAVA\Uebungen\uebung10\exrep\client\Uebung10Testat1\checkin1/src.zip
+DynamicUploadTestat :INFO   :Successfully uploaded all files needed for the exercise
+DynamicUploadTestat :INFO   :execute() from DynamicUpload class stopped
+CliPdUI             :INFO   :execute() of dynamic upload class returned successfully
+CliPdUI             :INFO   :lastAnswer.size(): 1
+CliPdUI             :INFO   :result: >500 Execution of process UID "Uebung10Testat1.checkin1" failed with exit code 11<
+ComPdCommandLinePars:INFO   :Logging to SysOut (console) enabled by command line argument
+ComPdCommandLinePars:INFO   :Logging to logfile enabled by command line argument
+ComPdCommandLinePars:INFO   :LogLevel set to FINER by command line argument
+CliPdUI             :INFO   :Timestamp: 11:47:53.472 - 24.11.2024
+CliPdUI             :INFO   :Starting ExRep-Client v3.2.0
+CliDmClientConfig   :INFO   :Loading client config from XML
+CliDmClientConfig   :FINER  :Loaded network data
+CliDmClientConfig   :FINER  :Loaded user data
+CliDmClientConfig   :FINER  :Loaded ranking data
+CliDmClientConfig   :FINER  :Loaded log module "client" with level "OFF"
+CliDmClientConfig   :FINER  :Loaded logging data
+CliDmClientConfig   :INFO   :XML client config file successfully saved
+CliNtServerConnectio:FINER  :Found an ExRep-Server on port 40001
+CliPdUI             :FINE   :Sucessfully connected to server
+CliNtServerConnectio:FINER  :Found an ExRep-Server on port 40001
+ComDmFileTransfer   :INFO   :Setting file "DynamicUploadTestat.class" success
+ComDmFileTransfer   :INFO   :Write file "C:\Users\Andrea\OneDrive - Hochschule Luzern\Desktop\UNI\3\ADS\Practice_and_Exercises\JAVA\Uebungen\uebung10\exrep\client\Uebung10Testat1\checkin1\DynamicUploadTestat.class" success
+CliNtServerConnectio:FINER  :Found an ExRep-Server on port 40001
+CliPdUI             :INFO   :Now starting dynamic class...
+ComPdDynamicClassLoa:INFO   :Dynamic class "DynamicUploadTestat" loaded
+ComPdDynamicClassLoa:INFO   :Executing method "execute" of dynamic class...
+DynamicUploadTestat :INFO   :execute() from DynamicUpload class running
+DynamicUploadTestat :FINER  :FileList: [./as/aufgabe02/Graph.java]
+DynamicUploadTestat :FINE   :Creating ZIP-Archive: C:\Users\Andrea\OneDrive - Hochschule Luzern\Desktop\UNI\3\ADS\Practice_and_Exercises\JAVA\Uebungen\uebung10\exrep\client\Uebung10Testat1\checkin1/src.zip
+DynamicUploadTestat :INFO   :Successfully uploaded all files needed for the exercise
+DynamicUploadTestat :INFO   :execute() from DynamicUpload class stopped
+CliPdUI             :INFO   :execute() of dynamic upload class returned successfully
+CliPdUI             :INFO   :lastAnswer.size(): 1
+CliPdUI             :INFO   :result: >500 Execution of process UID "Uebung10Testat1.checkin1" failed with exit code 11<
+CliNtServerConnectio:FINER  :Found an ExRep-Server on port 40001
